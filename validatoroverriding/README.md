@@ -39,3 +39,11 @@ func main() {
     }
 
 ```
+
+## v10
+
+```golang
+    if v, ok := binding.Validator.Engine().(*validator.Validate); ok {
+        _ = validatoroverriding.BindValidator(v)
+    }
+```
